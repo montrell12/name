@@ -10,6 +10,25 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-emphasis: none;
+}
+
+a:link {
+  text-decoration: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 
 body {
   background: rgb(238, 174, 202);
